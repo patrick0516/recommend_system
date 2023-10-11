@@ -52,4 +52,5 @@ def recommend_youtube(youtube_name):
     for i in yt_list:
         print(df1.iloc[i[0]].Youtuber)
 
-recommend_youtube('PewDiePie')
+keyword = input("Enter a Youtuber name: ")
+recommend_youtube(keyword)
